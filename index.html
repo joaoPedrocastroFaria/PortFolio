@@ -4,56 +4,228 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifólio João Pedro</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfólio</title>
+    
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="scroll-up-btn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+    </div>
     <div class="navbar">
         <div class="max-width">
             <div class="logo"><a href="#">Port<span>fólio</span></a></div>
             <ul class="menu">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Serviços</a></li>
-                <li><a href="#">Especialidades</a></li>
-                <li><a href="#">Equipe</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#home">Inicio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Hobbys</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#teams">Pessoas Especiais</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
             <div class="menu-btn">
                 <ion-icon name="menu-outline"></ion-icon>
             </div>
         </div>
     </div>
-    <!-- home inicio -->
-    <section class="home" id="home"> 
+
+    <!--home inicio-->
+    <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
-                <div class="text-1">Ola, meu nome é </div>
-                <div class="text-2">João Pedro De Castro</div>
-                <div class="text-3">eu sou <span>Dev</span></div>
-                <a href="#">Contratar-me</a>
+                <div class="text-1">Ola, meu nome é</div>
+                <div class="text-2">João Pedro de Castro</div>
+                <div class="text-3">eu sou <span class="typing"></span></div>
             </div>
         </div>
     </section>
-    <!-- sobre -->
-    <section class="about" id="about"> 
+
+    <!--sessão sobre-->
+    <section class="about" id="about">
         <div class="max-width">
             <h2 class="title">Sobre</h2>
             <div class="about-content">
                 <div class="column left">
-                    <img src="IMG/img1.png" alt="">    
+                    <img src="image/img1.png" alt="">
                 </div>
                 <div class="column right">
-                    <div class="text">Sou João e sou <span>Dev</span></div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt alias natus odit harum provident? Officia aliquid cum voluptatibus placeat iure enim exercitationem explicabo incidunt. Eveniet vero neque optio sed praesentium!</p>
-                    <a href="#">Dowload CV</a>
+                    <div class="text">Sou João e sou <span class="typing-2"></span></div>
+                    <p>Olá, me chamo João Pedro, e tenho 20 anos, atuamente trabalho na Bosch,atuando como aprendiz de Analise e Desenvolvimento de Sistemas, estou cursando Engenharia de software na Universidade Unicesumar. Sou uma pessoa extremamente brincalhona e que gosta de fazer amizades, gosto muito de preticar esportes como basquete e futebol, e amo ouvir musica!</p>
                 </div>
             </div>
         </div>
     </section>
+
+     <!--sessão serviços-->
+     <section class="services" id="services">
+        <div class="max-width">
+            <h2 class="title">Hobbys</h2>
+            <div class="serv-content">
+               <div class="card">
+                   <div class="box">
+                    <ion-icon name="basketball-outline"></ion-icon>
+                    <div class="text">Basquete</div>
+                    <p>Gosto muito de jogar basquete nos meus tempos livres</p>
+                   </div>
+               </div>
+
+               <div class="card">
+                <div class="box">
+                    <ion-icon name="restaurant-outline"></ion-icon>   
+                 <div class="text">Cozinhar</div>
+                 <p>Gosto muito de cozinhar em ocasiões e para pessoas especiais</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <ion-icon name="radio-outline"></ion-icon>
+                 <div class="text">Ouvir Musica</div>
+                 <p>Gosto muito de ouvir musica a qualquer momento</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+     <!--sessão especialidade-->
+     <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Especialidades</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Conhecimentos</div>
+                    <p>Durante meu tempo de trabalho e faculdade adquiri conhecimentos sobre algumas linguagens de programação</p>
+                    <a href="#">Mais informações</a>
+                </div>
+                <div class="column right">
+                   <div class="bars">
+                       <div class="info">
+                           <span>HTML</span>
+                           <span>93%</span>
+                       </div>
+                       <div class="line html"></div>
+                   </div>
+                   <div class="bars">
+                    <div class="info">
+                        <span>CSS</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>C#</span>
+                        <span>87%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>Python</span>
+                        <span>87%</span>
+                    </div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info">
+                        <span>JavaScript</span>
+                        <span>42%</span>
+                    </div>
+                    <div class="line mysql"></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!--sessão equipe-->
+     <section class="teams" id="teams">
+        <div class="max-width">
+            <h2 class="title">Pessoas Especiais</h2>
+           <div class="carousel owl-carousel ">
+               <div class="card">
+                   <div class="box">
+                       <img src="image/OsDebs.png" alt="">
+                       <div class="text">Os Debs</div>
+                       <p>Meus companheiros do dia a dia</p>
+                   </div>
+               </div>
+               <div class="card">
+                <div class="box">
+                    <img src="image/Thais.png" alt="">
+                    <div class="text">Thais</div>
+                    <p>Meu amo</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="image/Paiemae.png" alt="">
+                    <div class="text">Aninha e Claudinho</div>
+                    <p>Meus pais</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <img src="image/roberto.png" alt="">
+                    <div class="text">Robert Bosch</div>
+                    <p>Aquele que me permitiu ter um emprego hoje</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sessão contato-->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+               <div class="column left">
+                   <div class="text">Fale comigo</div>
+                   <p>Você pode entrar em contato comigo através de qualquer uma das minhas redes sociais, mas respondo principalmente via e-mail.</p>
+               
+               <div class="icons">
+                   <div class="row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Nome</div>
+                            <div class="sub-title">João Pedro de Castro Faria</div>
+                        </div>
+                   </div>
+                   <div class="row">
+                    <ion-icon name="earth-outline"></ion-icon>
+                    <div class="info">
+                        <div class="head">Endereço</div>
+                        <div class="sub-title">Curitiba, PR</div>
+                    </div>
+               </div>
+               <div class="row">
+                <ion-icon name="person-outline"></ion-icon>
+                <div class="info">
+                    <div class="head">Email</div>
+                    <div class="sub-title">faria.joaoees@gmail.com</div>
+                </div>   
+            </div>
+            <div class="row">
+                <ion-icon name="call-outline"></ion-icon>
+                <div class="info">
+                    <div class="head">Telefone</div>
+                    <div class="sub-title">+55 (41) 9 8498-1898</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
 </body>
 </html>
